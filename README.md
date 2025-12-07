@@ -3,6 +3,12 @@
 This project detects cracks in concrete structures using a convolutional neural network (ResNet34 + FastAI).  
 It was originally developed and presented as a workshop at the **EYE (European Young Engineers) 55th International Conference**, demonstrating how civil engineers can apply **computer vision and machine learning** to structural health monitoring.
 
+## 📁 Dataset: Concrete Crack Images for Classification
+
+This project uses the publicly available **Concrete Crack Images for Classification** dataset from Kaggle. The dataset consists of 40,000 RGB images of concrete surfaces, with 20,000 images showing cracks and 20,000 showing intact surfaces. Each image is 227×227 px. The original images were collected from real buildings and subsequently processed for classification tasks.  
+
+> Özgenel, Ç.F., & Sorguç, A. (2018). *Concrete Crack Images for Classification* [Data set]. Mendeley Data. (Original dataset hosted on Kaggle) :contentReference[oaicite:7]{index=7}
+
 ## 🎯 Goal
 
 - Build an accessible pipeline for **binary image classification**:
@@ -20,9 +26,7 @@ notebooks/
   01_concrete_crack_detection.ipynb   # main notebook used in the workshop
 models/
   crack_classifier.pkl                # exported FastAI model (optional)
-src/
-  inference.py                        # load model & run predictions on new images
 data/
-  (not committed; see "Dataset" section)
+  .gitignore
 requirements.txt
 README.md

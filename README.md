@@ -26,7 +26,5 @@ notebooks/
   01_concrete_crack_detection.ipynb   # main notebook used in the workshop
 models/
   crack_classifier.pkl                # exported FastAI model (optional)
-data/
-  .gitignore
 requirements.txt
 README.md

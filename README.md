@@ -7,7 +7,7 @@ It was originally developed and presented as a workshop at the **EYE (European Y
 
 This project uses the publicly available **Concrete Crack Images for Classification** dataset from Kaggle. The dataset consists of 40,000 RGB images of concrete surfaces, with 20,000 images showing cracks and 20,000 showing intact surfaces. Each image is 227×227 px. The original images were collected from real buildings and subsequently processed for classification tasks.  
 
-> Özgenel, Ç.F., & Sorguç, A. (2018). *Concrete Crack Images for Classification* [Data set]. Mendeley Data. (Original dataset hosted on Kaggle) :contentReference[oaicite:7]{index=7}
+Dataset URL: https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification
 
 ## 🎯 Goal
 

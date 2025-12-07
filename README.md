@@ -22,8 +22,7 @@ Dataset URL: https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-f
 ## 🗂️ Project Structure
 
 ```text
-notebooks/
-  01_concrete_crack_detection.ipynb   # main notebook used in the workshop
+01_concrete_crack_detection.ipynb   # main notebook used in the workshop
 models/
   crack_classifier.pkl                # exported FastAI model (optional)
 requirements.txt
